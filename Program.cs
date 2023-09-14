@@ -48,7 +48,7 @@ namespace Variables
                 {
                     try
                     {
-                        Console.Write($"Enter the height of the Window (max-3, min-0.75): ");
+                        Console.Write($"Enter the height of the Window (max-{Height.max}, min-{Height.min}): ");
                         value = double.Parse(Console.ReadLine());
                         if (value <= 3 && value >= 0.75)
                         {
@@ -77,7 +77,7 @@ namespace Variables
                 {
                     try
                     {
-                        Console.Write($"Enter the Width of the Window (max-3, min-0.75): ");
+                        Console.Write($"Enter the Width of the Window (max-{Width.max}, min-{Width.min}): ");
                         value = double.Parse(Console.ReadLine());
                         if (value <= 3 && value >= 0.75)
                         {
